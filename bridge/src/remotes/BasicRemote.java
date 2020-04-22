@@ -3,7 +3,9 @@ package remotes;
 import devices.Device;
 
 public class BasicRemote implements Remote {
+    // 组合的方式
     protected Device device;
+
     public BasicRemote() {}
 
     public BasicRemote(Device device) {
